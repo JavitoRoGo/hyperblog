@@ -5,6 +5,9 @@ import SwiftUI
 
 struct MiVista: View {
     var body: some View {
-        Text("Hola Mundo")
+        VStack {
+            Text("Hola Mundo")
+            Text("Hola nueva rama llamada cabecera")
+        }
     }
 }
